@@ -1,5 +1,4 @@
 // Print all the subsequence whose sum is equal to given k
-
 #include <bits/stdc++.h>
 
 #define ll long long
