@@ -1,4 +1,4 @@
-//Print all the subsequence whose sum is equal to given k
+// Print all the subsequence whose sum is equal to given k
 
 #include <bits/stdc++.h>
 
