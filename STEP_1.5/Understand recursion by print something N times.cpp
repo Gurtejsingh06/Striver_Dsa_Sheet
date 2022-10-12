@@ -12,19 +12,18 @@
 #define MAX 1000001
 
 using namespace std;
-int i = 1;
-void printNos(int N){
-        if(i<=N){
-            cout << i << " ";
-            i+=1;
-            printNos(N);
+void printSomething(int N){
+        if(N>0){
+            cout << "Something" << " ";
+            N -= 1;
+            printSomething(N);
         }
 }
 int main() {
 
   int n;
   cin >> n;
-  printNos(n);
+  printSomething(n);
   return 0;
 }
 
